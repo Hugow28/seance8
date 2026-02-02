@@ -1,0 +1,8 @@
+.btn-primary:hover{
+    background-color: rgb(57, 0, 212);
+    border-color: rgb(57, 0, 212);
+}
+
+.btn-primary{
+    transition: all 1s ease-out;
+}
