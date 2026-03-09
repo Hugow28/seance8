@@ -1,0 +1,29 @@
+
+/* ─── CARD 1 : Scale ─── */
+.card-1 .card {
+    transition: transform 0.3s ease;
+}
+
+.card-1 .card:hover {
+    transform: scale(1.05);
+}
+
+/* ─── CARD 2 : Élévation ─── */
+.card-2 .card {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.card-2 .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ─── CARD 3 : Bouton animé ─── */
+.card-3 .btn {
+    transition: transform 0.3s ease;
+}
+
+.card-3 .btn:hover {
+    transform: rotate(5deg) scale(1.1);
+}

@@ -1,0 +1,27 @@
+
+.btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #27ae60;
+}
+
+/* ─── BOUTON 2 : Secondaire ─── */
+.btn-secodnary {
+    transition: all 0.4s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #e74c3c;
+    font-size: 20px;
+}
+
+/* ─── BOUTON 3 : Danger ─── */
+.btn-danger {
+    transition: background-color 0.6s ease 0.2s;
+}
+
+.btn-danger:hover {
+    background-color: #1a1a1a;
+}
